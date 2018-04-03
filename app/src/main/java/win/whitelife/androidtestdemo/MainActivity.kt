@@ -22,9 +22,6 @@ class MainActivity : AppCompatActivity() {
         bt_click2.setOnClickListener({
             tv_main.setText("点击了按键2")
         })
-         bt_click2.setOnClickListener({
-            tv_main.setText("点击了按键2")
-        })
     }
     
 
