@@ -15,14 +15,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         bt_click.setOnClickListener({
-            Toast.makeText(this,"点击了按钮",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "点击了按钮", Toast.LENGTH_SHORT).show()
         })
-        var m=ConcurrentHashMap<String,String>()
-        m.put("","")
+        var m = ConcurrentHashMap<String, String>()
+        m.put("", "")
         bt_click2.setOnClickListener({
-            tv_main.setText("点击了按键3")
+            tv_main.setText("点击了按键2")
         })
     }
-    
-
 }
