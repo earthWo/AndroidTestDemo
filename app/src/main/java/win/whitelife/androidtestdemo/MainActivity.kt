@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         var m=ConcurrentHashMap<String,String>()
         m.put("","")
         bt_click2.setOnClickListener({
-            tv_main.setText("点击了按键2")
+            tv_main.setText("点击了按键1")
         })
          bt_click2.setOnClickListener({
             tv_main.setText("点击了按键2")
