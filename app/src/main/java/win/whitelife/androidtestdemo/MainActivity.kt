@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "点击了按钮", Toast.LENGTH_SHORT).show()
         })
         var m = ConcurrentHashMap<String, String>()
-        m.put("", "")
+        m.put("", " ")
         bt_click2.setOnClickListener({
             tv_main.setText("点击了按键2")
         })
